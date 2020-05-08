@@ -25,22 +25,22 @@
       mode="fluid-height"
       background-width="600px"
       background-height="469px"
-      background-url="https://images.pexels.com/photos/3183196/pexels-photo-3183196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      background-url="https://res.cloudinary.com/tashayar/image/upload/v1588976609/Email%20Templates/Stock%20Images/tech/pexels-photo-3183196.jpg"
       background-color="#042a2b"
       padding="100px 0px">
 
       <mj-text
         mj-class="hx"
-        padding="20px"
+        padding="20px 20px 40px 20px"
         color="#ffffff"
         align="center"
-        font-size="45px"
-        line-height="45px"
+        font-size="48px"
+        line-height="125%"
         font-weight="700">
         Modern-Day Newsies
       </mj-text>
       
-      <mj-button href="#" align="center">
+      <mj-button href="#" align="center" padding-top="30px">
         JOIN THE CREW
       </mj-button>
       
@@ -70,7 +70,7 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-image src="woman-standing-while-carrying-laptop-1181354.jpg"></mj-image>
+        <mj-image src="https://res.cloudinary.com/tashayar/image/upload/v1588976608/Email%20Templates/Stock%20Images/tech/woman-standing-while-carrying-laptop-1181354.jpg" alt="Woman standing while carrying a laptop"></mj-image>
       </mj-column>
       <mj-column>
         <mj-text mj-class="hx h2">
@@ -79,11 +79,16 @@
         <mj-text mj-class="p-alt">
           Risus viverra adipiscing at in. Et malesuada fames ac turpis egestas maecenas pharetra. Tempus imperdiet nulla malesuada pellentesque. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget. Pellentesque id nibh tortor id. Scelerisque in dictum non consectetur a erat. Tortor dignissim convallis aenean et tortor at risus. Eget gravida cum sociis natoque penatibus et magnis. Neque sodales ut etiam sit amet nisl purus in mollis.
         </mj-text>
+        
+        <mj-text>
+        <a href="#">View article</a>
+        </mj-text>
+        
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-image src="coding-computer-data-depth-of-field-577585.jpg"></mj-image>
+        <mj-image src="https://res.cloudinary.com/tashayar/image/upload/v1588976604/Email%20Templates/Stock%20Images/tech/coding-computer-data-depth-of-field-577585.jpg" alt="Eyeglasses sitting on top of a laptop"></mj-image>
       </mj-column>
       <mj-column>
         <mj-text mj-class="hx h2">
@@ -96,7 +101,7 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-image src="apple-device-cellphone-communication-device-594452.jpg"></mj-image>
+        <mj-image src="https://res.cloudinary.com/tashayar/image/upload/v1588976605/Email%20Templates/Stock%20Images/tech/apple-device-cellphone-communication-device-594452.jpg" alt="iPhone next to an old landline phone"></mj-image>
       </mj-column>
       <mj-column>
         <mj-text mj-class="hx h2">
@@ -109,7 +114,7 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-image src="two-computer-flat-screen-monitors-turned-on-777001.jpg"></mj-image>
+        <mj-image src="https://res.cloudinary.com/tashayar/image/upload/v1588976603/Email%20Templates/Stock%20Images/tech/two-computer-flat-screen-monitors-turned-on-777001.jpg" alt="Two computer monitors turned on"></mj-image>
       </mj-column>
       <mj-column>
         <mj-text mj-class="hx h2">

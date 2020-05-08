@@ -5,10 +5,10 @@
        <!-- fb tw ig yt --> 
         
     <mj-social container-background-color="#011627">
-      <mj-social-element name="" href="#" src="icons/icons8-facebook-old-50.png" />
-      <mj-social-element name="" href="#" src="icons/icons8-twitter-squared-50.png"/>
-      <mj-social-element name="" href="#" src="icons/icons8-instagram-50.png"/>
-      <mj-social-element name="" href="#" src="icons/icons8-play-button-50.png"/>
+      <mj-social-element name="" href="#" src="https://res.cloudinary.com/tashayar/image/upload/v1588976460/Email%20Templates/Icons/social/icons8-facebook-old-50.png" />
+      <mj-social-element name="" href="#" src="https://res.cloudinary.com/tashayar/image/upload/v1588976461/Email%20Templates/Icons/social/icons8-twitter-squared-50.png"/>
+      <mj-social-element name="" href="#" src="https://res.cloudinary.com/tashayar/image/upload/v1588976459/Email%20Templates/Icons/social/icons8-instagram-50.png"/>
+      <mj-social-element name="" href="#" src="https://res.cloudinary.com/tashayar/image/upload/v1588976462/Email%20Templates/Icons/social/icons8-play-button-50.png"/>
     </mj-social>
         
         
