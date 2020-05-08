@@ -29,7 +29,7 @@
         <mj-column width="10%">
         </mj-column>
         <mj-column mj-class="card">
-        <mj-image src="cosmetic-creams-on-a-magazine-2834934.jpg" mj-class="card-img"></mj-image>
+        <mj-image src="https://res.cloudinary.com/tashayar/image/upload/v1588975927/Email%20Templates/Stock%20Images/cosmetics/cosmetic-creams-on-a-magazine-2834934.jpg" mj-class="card-img"></mj-image>
         <mj-text mj-class="hx h2">
           <h2>"Cruelty-Free" Make-Up Trends</h2>
         </mj-text>
@@ -45,7 +45,7 @@
         <mj-column width="10%">
         </mj-column>
         <mj-column mj-class="card">
-        <mj-image src="woman-with-blue-lips-on-body-of-water-2710063.jpg" mj-class="card-img"></mj-image>
+        <mj-image src="https://res.cloudinary.com/tashayar/image/upload/v1588975927/Email%20Templates/Stock%20Images/cosmetics/woman-with-blue-lips-on-body-of-water-2710063.jpg" mj-class="card-img"></mj-image>
         <mj-text mj-class="hx h2">
           <h2>The Bold and the Beautiful</h2>
         </mj-text>
@@ -61,7 +61,7 @@
         <mj-column width="10%">
         </mj-column>
         <mj-column mj-class="card">
-        <mj-image src="make-up-brush-set-1830447.jpg" mj-class="card-img"></mj-image>
+        <mj-image src="https://res.cloudinary.com/tashayar/image/upload/v1588975927/Email%20Templates/Stock%20Images/cosmetics/make-up-brush-set-1830447.jpg" mj-class="card-img"></mj-image>
         <mj-text mj-class="hx h2">
           <h2>Maintaining Your Brushes</h2>
         </mj-text>
