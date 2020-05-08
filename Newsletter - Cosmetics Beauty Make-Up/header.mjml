@@ -1,0 +1,11 @@
+<mj-section padding="00">
+
+  <mj-column background-color="#996888" width="100%">
+    <mj-image src="logo_heart_with_leaf-white-32.png" width="32px"></mj-image>
+    <mj-text align="center" color="#ffffff" mj-class="hx h1">
+      <h1>Cosmetics Newsletter</h1>
+    </mj-text>
+    <mj-text align="center" color="#ffffff" padding="0px 32px 32px 32px">Aliquet eget sit amet tellus. Mauris sit amet massa vitae tortor condimentum lacinia.</mj-text>
+  </mj-column>
+
+</mj-section>

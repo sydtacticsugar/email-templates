@@ -1,0 +1,16 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column padding="0">
+				<mj-image
+                  src="cover.png"
+                  alt="Tech News"
+                  padding="0"
+                  ></mj-image>
+        <mj-text align="center" container-background-color="#D5EAED" padding-top="0">
+        	Gadgets | Tips | Trends
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,83 @@
+<mjml>
+
+  <mj-head>
+
+    <mj-attributes>
+      <mj-text align="center" color="#555" padding="0" font-family="Open Sans, Calibri, sans-serif" />
+      <mj-button border-radius="20px" container-background-color="#ffffff" padding-bottom="22px"/>
+      <mj-class name="card" width="80%" />
+      <mj-class name="hx" font-family="Over the Rainbow, Palatino, Georgia"/>
+      <mj-class name="h1" font-size="22px" />
+      <mj-class name="h2" font-size="18px" padding="30px 22px" container-background-color="#ffffff" />
+      <mj-class name="p" font-size="16px" padding="0 22px" container-background-color="#ffffff"/>
+      <mj-class name="card-img" padding="" />
+    </mj-attributes>
+    
+    <!-- Heading Font -->
+    <mj-font name="Over the Rainbow" href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap" />
+		<!-- Default Font -->
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" />
+
+  </mj-head>
+
+  <mj-body background-color="#f1f1f1">
+
+    <mj-include path="./header.mjml" />
+
+
+      <mj-section>
+        <mj-column width="10%">
+        </mj-column>
+        <mj-column mj-class="card">
+        <mj-image src="cosmetic-creams-on-a-magazine-2834934.jpg" mj-class="card-img"></mj-image>
+        <mj-text mj-class="hx h2">
+          <h2>"Cruelty-Free" Make-Up Trends</h2>
+        </mj-text>
+        <mj-text mj-class="p">
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        </mj-text>
+        <mj-button>Read more</mj-button>
+      	</mj-column>
+        <mj-column width="10%"></mj-column>
+      </mj-section>
+    
+        <mj-section>
+        <mj-column width="10%">
+        </mj-column>
+        <mj-column mj-class="card">
+        <mj-image src="woman-with-blue-lips-on-body-of-water-2710063.jpg" mj-class="card-img"></mj-image>
+        <mj-text mj-class="hx h2">
+          <h2>The Bold and the Beautiful</h2>
+        </mj-text>
+        <mj-text mj-class="p">
+          <p>Facilisi morbi tempus iaculis urna id. Lacinia quis vel eros donec ac odio tempor orci dapibus. Vel pretium lectus quam id leo. </p>
+        </mj-text>
+        <mj-button>Read more</mj-button>
+      	</mj-column>
+        <mj-column width="10%"></mj-column>
+      </mj-section>
+    
+        <mj-section>
+        <mj-column width="10%">
+        </mj-column>
+        <mj-column mj-class="card">
+        <mj-image src="make-up-brush-set-1830447.jpg" mj-class="card-img"></mj-image>
+        <mj-text mj-class="hx h2">
+          <h2>Maintaining Your Brushes</h2>
+        </mj-text>
+        <mj-text mj-class="p">
+          <p>Orci ac auctor augue mauris augue neque gravida. Suscipit tellus mauris a diam maecenas sed enim.  </p>
+        </mj-text>
+        <mj-button>Read more</mj-button>
+      	</mj-column>
+        <mj-column width="10%"></mj-column>
+      </mj-section>
+ 
+
+   
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>

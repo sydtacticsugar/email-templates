@@ -1,0 +1,14 @@
+<mj-section>
+
+  <mj-column>
+    <mj-image src="logo_heart_with_leaf-gray-32.png" width="32px"></mj-image>
+    <mj-text align="center">
+      1234 Main Street <br>
+      Anywhere, TX 78701
+    </mj-text>
+      <mj-text align="center">
+        <a href="#">Unsubscribe</a>
+      </mj-text>
+  </mj-column>
+
+</mj-section>

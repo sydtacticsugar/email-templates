@@ -1,0 +1,34 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+       <!-- fb tw ig yt --> 
+        
+    <mj-social container-background-color="#011627">
+      <mj-social-element name="" href="#" src="icons/icons8-facebook-old-50.png" />
+      <mj-social-element name="" href="#" src="icons/icons8-twitter-squared-50.png"/>
+      <mj-social-element name="" href="#" src="icons/icons8-instagram-50.png"/>
+      <mj-social-element name="" href="#" src="icons/icons8-play-button-50.png"/>
+    </mj-social>
+        
+        
+        <mj-text container-background-color="#011627" color="#ffffff" align="center" font-size="24px" font-family="Karla">
+          Tech News
+        </mj-text>
+
+        <!-- logo -->
+        <mj-image src="icons8-learning-50.png" container-background-color="#011627" width="50px"></mj-image>
+        
+        <!-- address -->
+        <mj-text container-background-color="#011627" color="#ffffff">
+          
+        </mj-text>
+        
+       <!-- unsub/pref -->
+        <mj-text container-background-color="#011627" color="#ffffff" align="center" line-height="145%" padding="0 20px 20px 20px">
+        You are receiving this email because you signed up for the Tech News weekly newsletter. If you no longer would like to receive our emails, you can <a href="#">unsubscribe here</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
