@@ -13,9 +13,9 @@
     </mj-attributes>
     
     <!-- Heading Font -->
-    <mj-font name="" href="" />
+    <mj-font name="Pacifico, Helvetica" href="" />
 		<!-- Default Font -->
-    <mj-font name="" href="" />
+    <mj-font name="Roboto, Arial, sans-serif" href="" />
 
   </mj-head>
   
@@ -26,11 +26,21 @@
     <mj-section>
       
      <!-- Receipt -->
+      <!-- Order # | Cashier Label | Transaction #-->
+      <mj-column>        
+        <mj-text>
+          Order #7435 <br />
+          Cashier <br />
+          <br />
+          Transaction #999 999 999
+        </mj-text>
+      </mj-column>
+      <!-- Date/Time | Cashier Value -->
       <mj-column>
         
-        <!-- order #, datetime | transaction # | quantity, item name, price | subtotal | tax | s&h | total | address | phone | email | url -->
         <mj-text>
-          ...
+          May 13 2020 2:05 PM
+          Backy McBeckface
         </mj-text>
       </mj-column>
      <!-- Promo Space -->
