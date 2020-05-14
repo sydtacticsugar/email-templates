@@ -3,19 +3,25 @@
     <mj-head>
 
     <mj-attributes>
-      <mj-text align="center" color="" padding="0" font-family="" />
-      <mj-button border-radius="20px" container-background-color="" padding-bottom="22px"/>
+      <mj-text align="center" padding="0" font-family="Roboto" />
+      <mj-button border-radius="20px"  padding-bottom="22px"/>
       <mj-class name="card" width="80%" />
-      <mj-class name="hx" font-family=""/>
+      <mj-class name="hx" font-family="Pacifico"/>
       <mj-class name="h1" font-size="22px" />
       <mj-class name="h2" font-size="18px" padding="30px 22px" container-background-color="" />
       <mj-class name="p" font-size="16px" padding="0 22px" container-background-color=""/>
     </mj-attributes>
     
     <!-- Heading Font -->
-    <mj-font name="Pacifico, Helvetica" href="" />
+    <mj-font name="Pacifico" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" />
 		<!-- Default Font -->
-    <mj-font name="Roboto, Arial, sans-serif" href="" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" />
+      
+    <!-- Default Font | Light -->
+    <mj-font name="" href="" />  
+      
+    <!-- Default Font | Bold -->
+    <mj-font name="" href=""/>
 
   </mj-head>
   
@@ -25,34 +31,145 @@
     
     <mj-section>
       
-     <!-- Receipt -->
-      <!-- Order # | Cashier Label | Transaction #-->
-      <mj-column>        
-        <mj-text>
-          Order #7435 <br />
-          Cashier <br />
-          <br />
-          Transaction #999 999 999
-        </mj-text>
+        <mj-column>
+        <mj-table>
+          
+            <tr style="font-size:14px">
+            <td style="text-align:left;">Order #7435</td>
+            <td style=""></td>
+            <td style="text-align:right;">May 13 2020</td>
+          </tr>
+          <tr style="font-size:14px">
+            <td style="">Cashier</td>
+            <td style=""></td>
+            <td style="text-align:right;">Becky McBeckface</td>
+          </tr>
+
+            <td style="">Transaction # 999 999 999</td>
+          </tr>
+          
+          <tr style="border-bottom:2px solid #c4c4c4;text-align:left;padding:10px 0;font-size:14px">
+            <th style="padding: 0 15px 0 0;"></th>
+            <th style="padding: 0 15px;"></th>
+            <th style="padding: 0 0 0 15px;"></th>
+          </tr>
+          <tr style="font-weight:300;font-size: 16px">
+            <td style="padding: 0 15px 0 0;">1</td>
+            <td style="padding: 0 15px;">Product McProductface</td>
+            <td style="padding: 0 0 0 15px;">3.99</td>
+          </tr>
+          <tr style="font-weight:300;font-size: 16px">
+            <td style="padding: 0 15px 0 0;">1</td>
+            <td style="padding: 0 15px;">Service McServiceface</td>
+            <td style="padding: 0 0 0 15px;">14.99</td>
+          </tr>
+          <tr style="font-weight:300;font-size: 16px">
+            <td style="padding: 0 15px 0 0;">2</td>
+            <td style="padding: 0 15px;">Impulse McImpulseface</td>
+            <td style="padding: 0 0 0 15px;">5.00</td>
+          </tr>
+          <tr style="font-weight:300;font-size: 16px">
+            <td style="padding: 0 15px 0 0;">1</td>
+            <td style="padding: 0 15px;">Product McProductface</td>
+            <td style="padding: 0 0 0 15px;">2.50</td>
+          </tr>
+          <tr style="font-weight:300;font-size: 16px">
+            <td style="padding: 0 15px 0 0;">1</td>
+            <td style="padding: 0 15px;">Service McServiceface</td>
+            <td style="padding: 0 0 0 15px;">6.99</td>
+          </tr>
+          
+          <tr style="font-weight:300;font-size: 16px">
+            <td style="padding: 0 15px 0 0;">1</td>
+            <td style="padding: 0 15px;">Impulse McImpulseface</td>
+            <td style="padding: 0 0 0 15px;">0.49</td>
+          </tr>
+          
+          <tr style="font-weight:300;border-bottom:2px solid #c4c4c4;text-align:left;padding:10px 0;font-size:16px;">
+            <td style="padding: 0 15px 0 0;">3</td>
+            <td style="padding: 0 15px;">Product McProductface</td>
+            <td style="padding: 0 0 0 15px;">7.99</td>
+          </tr>
+          
+            <tr style="font-size: 16px">
+            <td style="padding: 0 ;">Subtotal</td>
+            <td style="padding: 0;"></td>
+            <td style="padding: 0 ;">$41.95</td>
+          </tr>
+                                        
+          <tr style="font-size: 16px">
+            <td style="padding: 0 ;">Tax</td>
+            <td style="padding: 0;"></td>
+            <td style="padding: 0 ;">$3.46</td>
+          </tr>
+          
+           <tr style="font-size: 16px">
+            <td style="padding: 0 ;font-weight: 700;">Total</td>
+            <td style="padding: 0;"></td>
+            <td style="padding: 0 ;font-weight: 700;">$45.41</td>
+          </tr>
+          
+ <!-- Payment Info -->         
+          
+        </mj-table>
       </mj-column>
-      <!-- Date/Time | Cashier Value -->
-      <mj-column>
-        
-        <mj-text>
-          May 13 2020 2:05 PM
-          Backy McBeckface
-        </mj-text>
-      </mj-column>
-     <!-- Promo Space -->
-      <mj-column>
+<mj-column border-bottom="2px solid #c4c4c4">
+  
+  <mj-text padding="10px" font-weight="300" font-size="14px">
+    Payment: 5555<br />
+    AUTH # 3653 APPR CODE: 93421645<br />
+    APPROVED
+  </mj-text>
+</mj-column>
+  
+ <!-- Contact Info -->
+  <mj-column>
+  <mj-text padding="10px" font-weight="300" font-size="16px">
+    12345 Main Street<br />
+    Anywhere, TX 78701<br />
+    <br />
+    555-555-5555<br />
+example@example.com<br />
+www.example.com
+    
+  </mj-text>
+</mj-column>
+    </mj-section> 
+    
+    <mj-wrapper>
+             <!-- Promo Space -->
+
         
         <!-- promo hero/img | social CTAs -->
-        <mj-text>
-          ...
-        </mj-text>
+            <mj-hero
+      mode="fluid-height"
+      background-width="600px"
+      background-height="469px"
+      background-url="https://images.pexels.com/photos/3801990/pexels-photo-3801990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      background-color="#042a2b"
+      padding="100px 0px">
+
+      <mj-text
+        mj-class="hx"
+        padding="0"
+        color="#ffffff"
+        align="center"
+        font-size="26px"
+        line-height="125%"
+        font-weight="700">
+        Get some vague products!
+      </mj-text>
+    </mj-wrapper>
+
+
+<mj-section>
+        <mj-column>
+        <!-- Social CTAs -->
+        
       </mj-column>
-    
-    </mj-section>
+       </mj-section>
+
+      
     
     <mj-include path="./footer.mjml" />
     

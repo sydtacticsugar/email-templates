@@ -1,15 +1,12 @@
-<mjml>
-  <mj-body>
+
     <mj-section>
       <mj-column>
         <mj-image></mj-image>
-        <mj-text>
+        <mj-text font-style="italic"font-size="16px">
           Thank you for your business!
         </mj-text>
-        <mj-text>
+        <mj-text mj-class="hx" font-size="36px" line-height="150%" padding="16px">
           Business McBusinessface
         </mj-text>
       </mj-column>
     </mj-section>
-  </mj-body>
-</mjml>
