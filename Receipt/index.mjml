@@ -113,7 +113,7 @@
           
         </mj-table>
       </mj-column>
-<mj-column border-bottom="2px solid #c4c4c4">
+<mj-column>
   
   <mj-text padding="10px" font-weight="300" font-size="14px">
     Payment: 5555<br />
